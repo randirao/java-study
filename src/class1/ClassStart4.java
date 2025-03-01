@@ -1,6 +1,6 @@
 package class1;
 
-public class ClassStart3 {
+public class ClassStart4 {
     public static void main(String[] args) {
         Student student1;
         student1 = new Student(); //x001
@@ -12,6 +12,10 @@ public class ClassStart3 {
         student2.name = "학생2";
         student2.age = 16;
         student2.grade = 80;
+
+        Student[] students = new Student[2];
+        students[0] = student1;
+        students[1] = student2;
 
         System.out.println("이름: " + student1.name + " 나이: " + student1.name + " 성적: " + student1.grade);
         System.out.println("이름: " + student2.name + " 나이: " + student2.name + " 성적: " + student2.grade);
