@@ -6,17 +6,14 @@ public class MusicPlayerMain3 {
 
         //음악 플레이어 켜기
         on(data);
-
         //볼륨 증가
         volumeUp(data);
         //볼륨 증가
         volumeUp(data);
         //볼륨 감소
         volumeDown(data);
-
         //음악 플레이어 상태
         showStatus(data);
-
         //음악 플레이어 끄기
         off(data);
     }
