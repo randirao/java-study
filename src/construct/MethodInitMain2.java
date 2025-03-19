@@ -14,4 +14,10 @@ public class MethodInitMain2 {
             System.out.println("이름: " + s.name +  "나이: " + s.age + " 성적: " + s.grade);
         }
     }
+
+    static void initMember(MemberInit member, String name, int age, int grade) {
+        member.name = name;
+        member.age = age;
+        member.grade = grade;
+    }
 }
